@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario Responsive</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css"/>
+
+</head>
+
+<body>
+	<div class="container">
+	<form action="#">
+		
+		<head>
+			<h1>Mi formulario</h1>
+			
+		</head>
+
+		<div>
+			<label class="desc" id="title1" for="Field1">Nombre</label>
+			<div>
+				<input type="text" name="Field1" id="Field1" class="field text fn" tabindex="1" />	
+			</div>
+
+		</div>
+
+		<div>
+			<label class="desc" id="title3" for="Field3">Email</label>
+			<div>
+				<input type="email" name="Field3" id="Field3" class="field text fn" tabindex="3" />	
+			</div>
+
+		</div>
+
+		<div>
+			<label class="desc" id="title4" for="Field4">Mensaje</label>
+			<div>
+				<textarea type="email" name="Field4" id="Field4" rows="10" cols="50" tabindex="1"></textarea>
+			</div>
+
+		</div>
+			
+			<div>
+				
+				<fieldset>
+					<legend id="title5" class="desc" >Eleige una Opción</legend>
+
+					<div>
+						<input id="radioDefault_5" type="hidden" name="Field5">
+						<div>
+							<input id="Field5_0" type="radio" name="Field5" value="Primera Opción" tabindex="5" checked="checked">
+							<label class="choice" for="Field5_0">Primera Elección</label>
+						</div>
+
+						<div>
+							<input id="Field5_1" type="radio" name="Field5" value="Segunda Opción" tabindex="5">
+							<label class="choice" for="Field5_1">Segunda Elección</label>
+						</div>
+
+						<div>
+							<input id="Field5_2" type="radio" name="Field5" value="Tercera Opción" tabindex="5">
+							<label class="choice" for="Field5_2">Tercera Elección</label>
+						</div>
+
+					</div>
+				</fieldset>
+
+			</div>
+
+			<div>
+				<fieldset>
+					<legend id="title6" class="desc" >Marca lo que Aplique</legend>
+
+					<div>
+						<input id="Field6" type="checkbox" name="Field6" value="Primera Opción" tabindex="8">
+						<label class="choice" for="Field6">Primera Elección</label>
+					</div>
+
+					<div>
+						<input id="Field7" type="checkbox" name="Field7" value="Segunda Opción" tabindex="8">
+						<label class="choice" for="Field7">Segunda Elección</label>
+					</div>
+
+					<div>
+						<input id="Field8" type="checkbox" name="Field8" value="Tercera Opción" tabindex="8">
+						<label class="choice" for="Field8">Tercera Elección</label>
+					</div>
+
+				</fieldset>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend id="title9" class="desc" >Eleige la Opción</legend>
+					<div>
+						<label class="desc" id="title06" for="Field8"></label>
+
+						<div>
+							<select id="Field10" class="field select medium" tabindex="11" >
+								<option value="Primera Opción" >Primera Selección</option>
+								<option value="Segunda Opción" >Segunda Selección</option>
+								<option value="Tercera Opción" >Tercera Selección</option>
+							</select>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+
+			<div>
+				<input id="enviar" type="submit" name="enviar" value="Enviar" >
+			</div>
+
+
+	</form>
+	
+</div>
+</body>
+</html>
